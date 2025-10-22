@@ -10,7 +10,7 @@ spec:
     targetRevision: main
     path: declarative_approach/online_shop  # path of Online Shop app in `argocd-demos` repo
   destination:
-    server: https://a9a919cfff9fa4387a3aef5d1f236dc5-1930617683.ap-south-1.elb.amazonaws.com/ # Replace with your Cluster Url, To get run: `argocd cluster list`
+    server: https://44304FD5FF4B8A13705BDC46611FDA23.gr7.ap-south-1.eks.amazonaws.com # Replace with your Cluster Url, To get run: `argocd cluster list`
     namespace: default
   syncPolicy:
     automated:
