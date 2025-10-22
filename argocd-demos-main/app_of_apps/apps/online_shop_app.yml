@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/lhussain-usefulbi/argo-cd.git # Repo containing child apps(that you have forked and cloned earlier)
     targetRevision: main
-    path: declarative_approach/online_shop  # path of Online Shop app in `argocd-demos` repo
+    path:  argocd-demos-main/declarative_approach/online_shop  # path of Online Shop app in `argocd-demos` repo
   destination:
     server: https://44304FD5FF4B8A13705BDC46611FDA23.gr7.ap-south-1.eks.amazonaws.com # Replace with your Cluster Url, To get run: `argocd cluster list`
     namespace: default
