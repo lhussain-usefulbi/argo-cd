@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/lhussain-usefulbi/argo-cd.git    # Replace it with your forked repo
     targetRevision: main
-    path: declarative_approach/online_shop
+    path: argocd-demos-main/declarative_approach/online_shop
   destination:
     server: https://44304FD5FF4B8A13705BDC46611FDA23.gr7.ap-south-1.eks.amazonaws.com   # Replace with your Cluster Url, To get run: `argocd cluster list`
     namespace: default
